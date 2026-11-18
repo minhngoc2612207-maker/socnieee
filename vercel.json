@@ -1,14 +1,8 @@
 {
-  "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "app.py"
+      "source": "/(.*)",
+      "destination": "/app"
     }
-  ],
-  "functions": {
-    "app.py": {
-      "includeFiles": "{crm/**,templates/**,static/**,soconie_crm_full_deploy.zip}"
-    }
-  }
+  ]
 }
