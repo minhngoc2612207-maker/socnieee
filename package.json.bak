@@ -1,0 +1,11 @@
+{
+  "name": "soconie-crm",
+  "version": "1.0.0",
+  "description": "Soconie CRM - Quản trị bán hàng & CRM phát triển bởi Lê Minh Ngọc",
+  "scripts": {
+    "start": "python run_crm.py",
+    "test:sms": "python test_sms.py"
+  },
+  "author": "Lê Minh Ngọc <minhngoc2612207@gmail.com>",
+  "license": "Proprietary"
+}

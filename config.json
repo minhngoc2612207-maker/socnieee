@@ -1,0 +1,8 @@
+{
+  "server_port": 5000,
+  "gemini_api_key": "",
+  "gemini_model": "gemini-2.5-flash",
+  "temperature": 0.2,
+  "app_name": "Đại Thành Partner Intelligence System"
+}
+

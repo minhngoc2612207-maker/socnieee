@@ -1,0 +1,172 @@
+<USER_REQUEST>
+MỤC TIÊU
+Chuyển giao diện "Soconie CRM" đang có (ảnh 1: nền tối navy - tím, chuyển động kính) sang PHONG CÁCH SILK (ảnh 2), đồng thời dựng ĐỦ luồng đầu vào theo bố cục ảnh 3 và ảnh 4, rồi mới vào web (dashboard CRM).
+
+QUY ƯỚC VỀ 4 ẢNH
+- Ảnh 1: giao diện hiện tại. Giữ NỘI DUNG và cấu trúc thẻ CRM (phễu 4 tầng, lead cần chăm sóc, lịch hẹn, tỷ lệ chốt đơn, cảnh báo...), nhưng ĐỔI PHONG CÁCH sang ảnh 2.
+- Ảnh 2 (Silk): nguồn PHONG CÁCH. Nền cảnh hoàng hôn pastel phủ kín (trời hồng - tím - đào, đồi đá, nước phản chiếu, mặt trời mờ hồng), nhân vật bóng mờ lơ lửng, tiêu đề serif lớn thanh lịch, thanh nhập kính dạng viên thuốc có nút tròn đen, nút "Get started" dạng viên thuốc trắng, 3 thẻ ảnh nền bo góc ở phía dưới.
+- Ảnh 3 và ảnh 4: nguồn BỐ CỤC của màn chào mừng và cửa sổ tài khoản. Đây là web của người khác. CHỈ HỌC BỐ CỤC. KHÔNG sao chép tên "Hà Thuỳ Dương", ảnh đại diện, logo, màu hồng của họ, hay câu chữ của họ.
+- Tên và nội dung của tôi: "Soconie CRM", chủ sở hữu Lê Minh Ngọc, SĐT 0363651407, email minhngoc2612207@gmail.com (lấy từ siteConfig). Nội dung là CRM bán hàng cho doanh nghiệp. Tuyệt đối không có nội dung y tế hay chữ tiếng Anh sót lại.
+
+LUỒNG NGƯỜI DÙNG (4 màn, theo thứ tự)
+Màn 1: Thẻ chào mừng (bố cục ảnh 3)
+Màn 2: Landing Silk phía sau, bị làm mờ
+Màn 3: Cửa sổ tài khoản nổi (bố cục ảnh 4): Tạo tài khoản | Đăng nhập | Quên MK (+ bước OTP)
+Màn 4: Vào web (dashboard CRM phong cách Silk)
+
+---------------------------------------------------------------
+MÀN 1: THẺ CHÀO MỪNG (học bố cục ảnh 3)
+---------------------------------------------------------------
+Nền: cảnh Silk full màn (ảnh 2), có parallax nhẹ. Giữa màn hình là một thẻ kính lớn dạng "cửa sổ ứng dụng", bo góc 36-40px, nền kính trắng mờ, viền sáng, glow mềm.
+1. Thanh tiêu đề của thẻ: bên trái 3 chấm tròn nhỏ như nút cửa sổ (đỏ, vàng, hồng/tím) + chữ "Soconie CRM · Quản trị bán hàng". Bên phải: huy hiệu trạng thái có chấm xanh "CRM ONLINE".
+2. Cột trái:
+   - Avatar tròn lớn, viền đứt nét xoay chậm, bên trong là ảnh/nhân vật bóng mờ kiểu Silk (placeholder, để tôi thay ảnh). Nếu tôi có ảnh chân dung thì dùng ảnh đó.
+   - Dưới avatar: huy hiệu "Lê Minh Ngọc · Quản trị bán hàng & CRM".
+   - Dưới nữa: hộp thống kê 3 số: "4 Bước / Chuẩn xác", "10+ / Tích hợp", "100% / Minh bạch" (số mẫu, đếm tăng dần).
+3. Cột phải:
+   - Tiêu đề lớn serif (kiểu ảnh 2): "Chào mừng bạn đến với Soconie CRM". KHÔNG tô nổi duy nhất một từ bằng highlight; tên "Soconie CRM" chỉ cần cùng kiểu chữ, có thể đậm hơn.
+   - Đoạn mô tả: "Hệ thống CRM giúp doanh nghiệp quản lý khách hàng, cơ hội, báo giá, đơn hàng và công việc trong một nơi, theo dõi KPI theo thời gian thực."
+   - 4 chip quy trình xếp lưới 2x2 (có số thứ tự vì đây đúng là chuỗi bước): 01 Kết nối & Trao đổi, 02 Làm sạch & Duyệt, 03 Phân tích & Dashboard, 04 Báo cáo & Xuất file.
+   - Nút chính lớn dạng viên thuốc có mũi tên "Bắt đầu trải nghiệm →" (gradient tím - hồng, glow). Bên phải nút: dòng nhỏ có biểu tượng khóa "Bảo mật phiên · Phân quyền riêng".
+4. Bấm "Bắt đầu trải nghiệm" thì chuyển sang Màn 2 + Màn 3 (thẻ chào mừng thu nhỏ và mờ dần, cửa sổ tài khoản nổi lên). Bấm nút "Đăng nhập" ở header thì vào thẳng Màn 3.
+
+---------------------------------------------------------------
+MÀN 2: LANDING SILK (làm mờ phía sau cửa sổ tài khoản)
+---------------------------------------------------------------
+Dựng một landing hoàn chỉnh theo ảnh 2, để người dùng có thể xem cả khi chưa mở cửa sổ tài khoản:
+- Header: logo "✦ Soconie" bên trái; menu giữa (Tính năng, Bảng giá, Giới thiệu, Liên hệ); nút viên thuốc trắng "Bắt đầu →" bên phải; kèm nút Sáng/Tối và đổi ngôn ngữ VI/EN.
+- Hero: tiêu đề serif lớn, trắng, căn trái: "Quản lý bán hàng, mượt từ đầu đến cuối." Dòng phụ: "Trợ lý CRM cho ý tưởng, công việc và doanh nghiệp của bạn." Nhân vật bóng mờ lơ lửng ở giữa/phải (SVG/Three.js, mắt nhìn theo chuột, bay nhẹ), mặt trời hồng mờ, đồi đá, nước phản chiếu.
+- Thanh nhập kính dạng viên thuốc ở giữa: "Hỏi Soconie CRM bất cứ điều gì..." có icon ✦ bên trái và nút tròn đen mũi tên bên phải. Chưa đăng nhập thì bấm vào sẽ mở cửa sổ tài khoản.
+- 3 thẻ ảnh nền bo góc, mỗi thẻ có icon tròn, tiêu đề, mô tả ngắn: "Quản lý khách hàng", "Theo dõi cơ hội & báo giá", "Báo cáo & KPI".
+- Khi cửa sổ tài khoản mở: landing phía sau bị làm mờ (blur 14-18px, hơi tối/sáng theo chế độ) giống ảnh 4.
+
+---------------------------------------------------------------
+MÀN 3: CỬA SỔ TÀI KHOẢN (học bố cục ảnh 4)
+---------------------------------------------------------------
+Cửa sổ kính nổi giữa màn hình (rộng khoảng 560-620px), bo góc 32px, nền kính trắng mờ, viền sáng, glow mềm, có nút đóng (×) và đóng bằng phím Esc.
+1. Thanh tiêu đề: 3 chấm cửa sổ + chữ "Tài khoản Soconie CRM".
+2. Khung thông báo trên cùng, nền kính nhạt, biểu tượng khóa: "Vui lòng Tạo tài khoản (hoặc Đăng nhập) để sử dụng hệ thống. Mỗi SĐT chỉ tạo được 1 tài khoản."
+3. Thanh tab dạng viên thuốc, 3 tab: "Tạo tài khoản" | "Đăng nhập" | "Quên MK". Tab đang chọn có nền gradient tím - hồng. Chuyển tab có hiệu ứng trượt mượt.
+4. Tab "Tạo tài khoản":
+   - Họ và tên *
+   - Số điện thoại * (1 SĐT = 1 tài khoản) , có cờ 🇻🇳 và +84, ô gợi ý "vd: 0912345678"
+   - Mật khẩu * (tối thiểu 8 ký tự, nút hiện/ẩn, thanh đo độ mạnh)
+   - Nhập lại mật khẩu *
+   - Checkbox đồng ý Điều khoản và Chính sách bảo mật
+   - Nút gradient bo viên thuốc rộng hết khung: "Tạo tài khoản & Bắt đầu" → chuyển sang bước OTP.
+5. Tab "Đăng nhập": SĐT, mật khẩu, "Ghi nhớ đăng nhập", nút "Đăng nhập"; có nút phụ "Đăng nhập bằng mã OTP".
+6. Tab "Quên MK": SĐT → mã OTP → mật khẩu mới (nhập 2 lần) → thông báo thành công, về tab Đăng nhập.
+7. Bước OTP (dùng chung): 6 ô số, tự nhảy ô, hỗ trợ dán cả mã, autocomplete="one-time-code", hiển thị SĐT đã che (036****407) kèm "Đổi số", đếm ngược 60 giây rồi mới bật "Gửi lại mã".
+8. Nhãn trên ô nhập, thông báo lỗi ngay dưới ô, tiếng Việt, ngắn gọn. Nút gửi có trạng thái loading, chống bấm đúp. Sai mã thì cửa sổ rung nhẹ.
+9. Chân cửa sổ: dòng nhỏ "Cần hỗ trợ? Gọi 0363651407 hoặc email minhngoc2612207@gmail.com".
+10. Vẫn dùng logic OTP qua SMS thật, chống dò tài khoản, giới hạn gửi lại, CAPTCHA, khóa tạm sau 5 lần sai như đã mô tả ở các yêu cầu trước (không làm lại, chỉ gắn vào giao diện mới).
+
+---------------------------------------------------------------
+MÀN 4: VÀO WEB (DASHBOARD CRM PHONG CÁCH SILK)
+---------------------------------------------------------------
+Sau khi đăng nhập thành công, hiển thị thông báo "Đăng nhập thành công", chuyển cảnh mượt rồi vào ứng dụng. Giữ NGUYÊN nội dung thẻ như ảnh 1, đổi sang phong cách Silk:
+- Nền: cảnh Silk cố định phía sau toàn bộ app (không còn nền navy phẳng); không còn mảng nền đặc nào.
+- Các thẻ là kính pastel bo góc lớn (24-32px), viền sáng mỏng, bóng mềm; mỗi thẻ lớn có thể có ảnh nền mờ lấy từ cảnh (đá, lụa, hoàng hôn) như 3 thẻ ảnh 2.
+- Tiêu đề serif lớn (ví dụ "Tổng quan hoạt động kinh doanh"); số liệu và nhãn dùng sans-serif sạch. Màu nhấn: hồng pastel - tím - đào, nút chính gradient viên thuốc.
+- Thanh topbar là viên thuốc kính nổi: ô tìm kiếm dạng viên thuốc có icon ✦ và nút tròn đen (như ô "Ask Silk anything" ở ảnh 2), "Doanh thu hôm nay", VI/EN, Sáng/Tối, nút "Tạo nhanh", chuông, hồ sơ.
+- Sidebar accordion (nhóm "1. BÁN HÀNG", "2. LÀM VIỆC") là tấm kính nổi cách mép 16px, bo góc 28px, mục đang chọn là viên thuốc gradient phát sáng.
+- Phễu bán hàng 4 tầng (Lead → Cơ hội → Báo giá → Đơn hàng) giữ nguyên là điểm nhấn trung tâm, đổi màu từng tầng sang bảng màu pastel của cảnh.
+- Thanh "Hỏi Soconie CRM" dạng viên thuốc nổi ở đáy màn hình.
+
+SỬA CÁC LỖI ĐANG THẤY Ở ẢNH 1
+- Thẻ viên thuốc "Chỉ số kinh doanh / Hiệu suất tháng" đang đè lên mép trên của khung lớn và che viền: đặt nó vào vị trí riêng, không chồng lên viền.
+- Hàng tab "Tất cả / Hôm nay / Ngày mai / Tuần / Tháng" bị cắt ("Thá"): dùng white-space: nowrap, co giãn bề rộng, cuộn ngang trên màn hẹp, không cắt chữ.
+- Kiểm tra mọi thẻ không bị cắt cụt ở đáy, không đè chữ, không rớt dòng bất thường.
+
+HAI CHẾ ĐỘ SÁNG / TỐI
+- SÁNG (mặc định, theo ảnh 2): cảnh hoàng hôn pastel, kính trắng 40-50%, chữ tối màu trong thẻ, chữ trắng trên ảnh nền phải có lớp phủ gradient nhẹ để đạt tương phản WCAG AA.
+- TỐI: cùng cảnh nhưng ở "giờ xanh" ban đêm (trời navy - tím, trăng/sao mờ), kính trắng 8-10%, chữ sáng, glow xanh - tím.
+- Đổi chế độ ở header và topbar, lưu lựa chọn, theo prefers-color-scheme ở lần đầu, không chớp trắng khi tải trang. Mọi màn (1-4, form, modal, toast, biểu đồ) phải đẹp ở cả hai chế độ.
+- Toàn bộ màu, độ mờ, bo góc, glow là design tokens (CSS variables) theo chế độ, không viết cứng.
+
+NGUYÊN TẮC KỸ THUẬT
+- Dùng đúng stack hiện tại, không thêm thư viện nặng. Nếu cần Three.js cho nhân vật thì nạp lười (lazy), có fallback SVG tĩnh khi thiết bị yếu hoặc prefers-reduced-motion.
+- Cảnh nền và nhân vật chừa chỗ để tôi thay bằng ảnh/GLB thật (một ảnh Sáng, một ảnh Tối, một nhân vật nền trong suốt).
+- Hiệu năng: giới hạn số lớp backdrop-filter chồng nhau, chỉ animate transform và opacity.
+- Truy cập: điều hướng bàn phím, focus ring rõ, aria cho tab/modal (khóa focus trong cửa sổ, Esc để đóng), prefers-reduced-motion.
+- Responsive: desktop, tablet, mobile (thẻ chào mừng xếp 1 cột, cửa sổ tài khoản gần full màn hình ở mobile).
+- Tất cả chữ bằng tiếng Việt qua i18n (VI mặc định, EN phụ), <html lang="vi">, thêm meta notranslate để Chrome không tự dịch. Tên "Soconie CRM" và "Lê Minh Ngọc" không bị dịch.
+- Không làm hỏng routing, phân quyền, logic OTP hiện có.
+
+CÁCH LÀM VIỆC
+1. Đọc code hiện tại, liệt kê file sẽ sửa, nêu giả định về stack.
+2. Thứ tự: (1) design tokens + nền cảnh Silk + nhân vật + hai chế độ; (2) Màn 2 landing; (3) Màn 1 thẻ chào mừng; (4) Màn 3 cửa sổ tài khoản + OTP; (5) Màn 4 dashboard Silk + sửa lỗi ở ảnh 1; (6) chuyển cảnh giữa các màn.
+3. Sau mỗi bước, chụp ảnh màn hình 4 trường hợp (Sáng/Tối × desktop/mobile) để tôi duyệt.
+4. Cuối cùng: tìm trong toàn dự án các chuỗi "Hà Thuỳ Dương", "DataLens", "Ngọc CRM", "minhngoc2612@" và các từ y tế (tim, nhịp tim, SpO2, bác sĩ...) để chắc chắn bằng 0, rồi báo lại.
+CHẾ ĐỘ SÁNG: CHỮ TỐI MÀU DỄ ĐỌC, DỄ HIỂU
+
+1. MÀU CHỮ (design tokens, chỉ cho chế độ Sáng)
+- Không dùng đen thuần #000000 (gắt, chói trên nền kính pastel). Dùng "mực tím đậm":
+  --text-strong:   #1B1535  (tiêu đề, số liệu lớn)
+  --text-body:     #2E2750  (nội dung chính)
+  --text-muted:    #5B5478  (mô tả phụ, nhãn, chú thích)
+  --text-disabled: #8A84A3  (chỉ cho trạng thái vô hiệu hóa)
+- Chữ trên nút gradient chính và trên mục đang chọn: trắng #FFFFFF.
+- Tương phản: chữ thường tối thiểu 4.5:1, chữ lớn (từ 24px, hoặc 19px đậm) tối thiểu 3:1, kiểm tra trên màu nền thực tế phía sau từng thẻ. Không dùng --text-muted cho thông tin quan trọng.
+
+2. KHÔNG ĐẶT CHỮ TỐI TRỰC TIẾP LÊN ẢNH CẢNH
+- Mọi đoạn chữ phải nằm trên một tấm kính có nền đủ đặc: rgba(255,255,255,0.65-0.80) + blur 20px. Đừng để chữ tối nằm thẳng trên trời, đá, nước.
+- Riêng hero (tiêu đề serif lớn trên cảnh Silk): chọn một trong hai cách, dùng nhất quán cả site:
+  a) Đặt tiêu đề và mô tả trong một tấm kính lớn bo 32px (nền trắng 70%), chữ --text-strong.
+  b) Giữ chữ trắng trên cảnh nhưng thêm lớp phủ gradient tối nhẹ phía sau chữ (từ rgba(30,20,60,0.45) về trong suốt) để đạt 4.5:1.
+- Kiểm tra nền cảnh có vùng quá sáng (mặt trời, mặt nước phản chiếu) nằm sau chữ hay không và dời hoặc làm mờ vùng đó.
+
+3. PHÂN CẤP CHỮ (để nhìn là hiểu ngay đâu quan trọng)
+- Chỉ dùng 4 mức, giữ cố định trong cả hệ thống:
+  Tiêu đề trang:  serif, 40-56px, weight 600, --text-strong, line-height 1.15
+  Tiêu đề thẻ:    sans-serif, 18-20px, weight 600, --text-strong
+  Nội dung:       sans-serif, 15-16px, weight 400, --text-body, line-height 1.6
+  Nhãn/phụ:       sans-serif, 13px, weight 500, --text-muted
+- Số liệu KPI: 32-40px, weight 700, --text-strong, dùng chữ số đều chiều rộng (font-variant-numeric: tabular-nums) để cột số thẳng hàng.
+- Một thẻ chỉ có MỘT thông tin nổi nhất (thường là con số lớn); phần còn lại nhỏ và nhạt hơn.
+- Độ dài dòng tối đa khoảng 60-70 ký tự; câu ngắn, mỗi thẻ một ý. Không viết toàn chữ HOA, không in nghiêng cả đoạn.
+
+4. MÀU NHẤN CÓ Ý NGHĨA (không chỉ dựa vào màu)
+- Tăng/tốt:    chữ #0F7B53 trên nền chip #DDF5EA, kèm mũi tên ▲ và dấu +
+- Giảm/xấu:   chữ #B4234E trên nền chip #FDE3EA, kèm mũi tên ▼ và dấu -
+- Cảnh báo:   chữ #9A5B00 trên nền chip #FFF0D1, kèm biểu tượng
+- Thông tin:  chữ #3B3FD1 trên nền chip #E6E7FF
+- Liên kết:   #4338CA, có gạch chân khi hover và focus.
+- Mọi trạng thái đều có thêm chữ hoặc biểu tượng, để người khó phân biệt màu vẫn hiểu.
+
+5. TẠO ĐỘ SÂU MÀ KHÔNG LÀM CHỮ KHÓ ĐỌC
+- Thẻ có viền trắng 1px + bóng mềm ngả tím nhạt (0 8px 28px rgba(80,60,160,0.14)); không dùng bóng đen đậm.
+- Khoảng trắng rộng: padding thẻ 20-28px, khoảng cách giữa nhóm chữ 12-16px.
+- Dòng phân cách mảnh rgba(27,21,53,0.08) thay cho các viền đậm.
+- Hover chỉ làm nền sáng hơn và nổi 2px, không đổi màu chữ.
+- Biểu đồ: đường và cột dùng màu đậm hơn một bậc so với chế độ Tối, nhãn trục --text-muted, nhãn giá trị --text-strong, lưới rất nhạt.
+
+6. FONT
+- Tiêu đề lớn: serif thanh lịch có hỗ trợ tiếng Việt đầy đủ (ví dụ Fraunces, Playfair Display, Source Serif 4; kiểm tra dấu "ệ, ữ, ặ" hiển thị không vỡ).
+- Nội dung: sans-serif rõ nét có hỗ trợ tiếng Việt (Inter, Be Vietnam Pro, Plus Jakarta Sans).
+- Không dùng weight dưới 400 cho chữ nhỏ; không dùng chữ dưới 13px.
+
+7. KIỂM TRA TRƯỚC KHI BÁO XONG
+- Chạy kiểm tra tương phản tự động (axe hoặc Lighthouse) cho mọi màn ở chế độ Sáng, báo lại số lỗi (mục tiêu 0 lỗi tương phản).
+- Chụp ảnh các màn: Landing, thẻ chào mừng, cửa sổ tài khoản, dashboard, ở desktop và mobile, và thử với độ sáng màn hình thấp.
+- Thử "đọc lướt": nhìn trong 3 giây phải nhận ra tiêu đề, con số chính và nút hành động chính của từng màn.
+- Chế độ Tối giữ nguyên quy tắc phân cấp, chỉ đổi màu theo tokens.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-11-18T09:22:05+07:00.
+
+The user's current state is as follows:
+Other open documents:
+- d:\Minh Ngọc BI\vercel.json (LANGUAGE_UNSPECIFIED)
+- d:\Minh Ngọc BI\run_crm.py (LANGUAGE_UNSPECIFIED)
+- d:\Minh Ngọc BI\crm\templates\dashboard\overview.html (LANGUAGE_UNSPECIFIED)
+- d:\Minh Ngọc BI\crm\static\css\glass_sidebar.css (LANGUAGE_UNSPECIFIED)
+- d:\Minh Ngọc BI\crm\static\css\glass_theme.css (LANGUAGE_UNSPECIFIED)
+
+The user has uploaded 4 image(s):
+- C:/Users/THC/.gemini/antigravity/brain/985b2eed-7902-4b89-b84c-58315124fe59/.user_uploaded/media_1794968214435_9bd07c7a.jpg
+- C:/Users/THC/.gemini/antigravity/brain/985b2eed-7902-4b89-b84c-58315124fe59/.user_uploaded/media_1794968313264_fa46e06b.jpg
+- C:/Users/THC/.gemini/antigravity/brain/985b2eed-7902-4b89-b84c-58315124fe59/.user_uploaded/media_1794968321459_c40d916b.jpg
+- C:/Users/THC/.gemini/antigravity/brain/985b2eed-7902-4b89-b84c-58315124fe59/.user_uploaded/media_1794968333140_79021889.jpg
+You can embed these images in an artifact if you need the USER to review them.
+</ADDITIONAL_METADATA>
